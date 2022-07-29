@@ -1,0 +1,38 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 2%;
+}
+
+.header {
+  grid-column: 1/5;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.child1 {
+  margin: 4px;
+}
+
+.swap {
+}
+#c1,
+#c3 {
+  color: red;
+  background-color: beige;
+}
+#c2 {
+  color: white;
+  background-color: blueviolet;
+}
+h2 {
+  text-align: center;
+}
